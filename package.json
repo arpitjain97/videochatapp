@@ -12,10 +12,9 @@
   "dependencies": {
     "express": "^4.17.1",
     "simple-peer": "^9.7.2",
-    "socket.io": "^2.3.0"
-  },
-  "devDependencies": {
+    "socket.io": "^2.3.0",
     "nodemon": "^2.0.4",
     "watchify": "^3.11.1"
   }
+
 }
