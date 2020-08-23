@@ -1,5 +1,5 @@
 let Peer = require('simple-peer');
-let socket = io();
+let socket = io('/');
 const video = document.querySelector('video');
 let client = {};
 
