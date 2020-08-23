@@ -4,8 +4,8 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "start": "nodemon server.js",
-    "watch": "npx watchify ./public/main.js -o ./public/bundle.js"
+    "start":"nodemon server.js",
+    "watch":"npx watchify ./public/main.js -o ./public/bundle.js"
   },
   "author": "Arpit Jain",
   "license": "ISC",
