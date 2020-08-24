@@ -1,4 +1,4 @@
-let Peer = require('simple-peer');
+//let Peer = require('simple-peer');
 let socket = io('/');
 const video = document.querySelector('video');
 let client = {};
@@ -15,7 +15,7 @@ navigator.mediaDevices.getUserMedia({
 
     // initialize a peer
     function InitPeer(type) {
-        let peer = new Peer({ initiator: (type === 'init') ? true : false, stream: stream, trickle: false })
+        let peer = new SimplePeer({ initiator: (type === 'init') ? true : false, stream: stream, trickle: false })
         peer.on('stream', function(stream) {
             CreateVideo(stream);
         })
